@@ -23,6 +23,24 @@ header{
     display: flex;
     justify-content: center;
 }
+.search-bar{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.search{
+   background-color: whitesmoke;
+}
+.search:focus{
+    outline: none;
+}
+input{
+    padding: 1rem 4rem;
+    border: solid 2px var(--secondryColor);
+    border-radius: 1rem;
+    color:black;
+    font: 1rem sans-serif;
+}
 .movie{
     border-radius: 3px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
