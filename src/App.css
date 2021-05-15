@@ -42,7 +42,7 @@ input{
     font: 1rem sans-serif;
 }
 .movie{
-    border-radius: 3px;
+    border-radius: 10px;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     overflow:hidden;
     position: relative;
@@ -55,6 +55,7 @@ input{
 }
 .movie-info{
     display: flex;
+    flex-wrap: wrap;
     padding:1rem;
     align-items: center;
     justify-content: space-between;
@@ -63,7 +64,7 @@ input{
     margin: 0;
 }
 .movie-over{
-
+    padding: 1rem;
     background-color: white;
     color: var(--primaryColor);
     position: absolute;
