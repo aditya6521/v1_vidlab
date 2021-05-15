@@ -39,10 +39,16 @@ function App() {
     setsearchTerm(e.target.value);
   }
 
+  const url=("");
+
   return (
     <div>
        <header>
-         <h1>CineLab</h1>
+         <a href={url}>
+           <h1>
+             CineLab
+           </h1>
+         </a>
          </header>
          <div className="search-bar">
            <form onSubmit={submitHandler}>
