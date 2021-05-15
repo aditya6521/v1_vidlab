@@ -19,10 +19,13 @@ function App() {
   }, [])
 
   return (
-    <div className="App">
+    <div>
+       <header><h1>CineLab</h1></header>
+      <div className="AppB">
     {Movies.map(mov=>(
       <Movie key={mov.id} {...mov}/>
     ))}
+    </div>
     </div>
   );
 }

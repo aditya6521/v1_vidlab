@@ -11,9 +11,17 @@ body{
     color: whitesmoke;
     margin: 0;
 }
-.App{
+.AppB{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+header{
+    background-color: var(--primaryColor);
+    padding: 1rem;
+    border:solid 4px var(--secondryColor);
+    display: flex;
+    justify-content: center;
 }
 .movie{
     border-radius: 3px;
@@ -22,7 +30,7 @@ body{
     position: relative;
     background-color: var(--secondryColor);
     margin: 1rem;
-    width: 200px;
+    width: 340px;
 }
 .movie img{
     max-width: 100%;
